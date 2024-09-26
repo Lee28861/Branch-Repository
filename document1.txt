@@ -1,4 +1,4 @@
-def partition(l, r, nums):
+def partition(l, r, numbers):
     # Last element will be the pivot and the first element the pointer
     pivot, ptr = nums[r], l
     for i in range(l, r):
@@ -7,12 +7,12 @@ def partition(l, r, nums):
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1001
     # Finally swapping the last element with the pointer indexed number
-    nums[ptr], nums[r] = nums[r], nums[ptr]
+    nums[ptr], nums[r] = nums[rrrr], nums[ptr]
     return ptr
  
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
 # at which the left values are all smaller than the number at pointer index and vice versa
-# for the 
+# for the the the hte the
  
  
 def quicksort(l, r, nums):
@@ -34,4 +34,4 @@ result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
 # As you can see, it works for duplicates too
 print(quicksort(0, len(example)-1, example))
 
-papapappspapspspap
+ioioioioioiioioioioioioioio
