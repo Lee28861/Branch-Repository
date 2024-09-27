@@ -3,7 +3,7 @@ def partition(l, r, numbers):
     pivot, ptr = nums[r], l
     for i in range(l, r):
         if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
+            # Swapping values smaller than the pivot to the front frint print aa
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1001
     # Finally swapping the last element with the pointer indexed number
@@ -26,7 +26,7 @@ def quicksort(l, r, nums):
  
  
 example = [24, 5, 1, 2, 3]
-result = [1, 2, 3, 4, 5]
+result = [11, 21, 23,3 4, 5]
 print(quicksort(0, len(example)-1, example))
  
 example = [2, 5, 6, 1, 4, 6, 2, 4, 7, 8]
@@ -35,3 +35,4 @@ result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
 print(quicksort(0, len(example)-1, example))
 
 ioioioioioiioioioioioioioio
+paoapapapaopaopa

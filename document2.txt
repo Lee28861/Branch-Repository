@@ -1,4 +1,4 @@
-// C program for Merge Sort
+// CD program for Merge Sort
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -47,7 +47,7 @@ void merge(int arr[], int l,
 		k++;
 	}
 
-	// Copy the remaining elements
+	// CCopy the remaining elements
 	// of L[], if there are any
 	while (i < n1) {
 		arr[k] = L[i];
@@ -85,7 +85,7 @@ void mergeSort(int arr[],
 	}
 }
 
-// UTILITY FUNCTIONS
+// UTILITY FUNCTIONS ARE VERY GOOD
 // Function to print an array
 void printArray(int A[], int size)
 {
@@ -95,18 +95,15 @@ void printArray(int A[], int size)
 	printf("\n");
 }
 
-// Driver code
-int main()
+// Driver code 122343455667788990
+int main()qw
 {
 	int arr[] = {12, 11, 13, 5, 6, 7};
 	int arr_size = sizeof(arr) / sizeof(arr[0]);
 
 	printf("Given array is \n");
-	printArray(arr, arr_size);
-
-	mergeSort(arr, 0, arr_size - 1);
-
 	printf("\nSorted array is \n");
 	printArray(arr, arr_size);
-	return 0;
+	
 }
+qqqw
